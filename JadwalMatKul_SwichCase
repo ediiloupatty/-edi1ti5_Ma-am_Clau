@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+ cout<<"Nama	: Edi"<<endl;
+ cout<<"NIM 	: 22024169"<<endl;
+ char code;
+ cout<<"Jadwal Mata Kuliah"<<endl;
+ cout<<"Senin(a),Selasa(b),Rabu(c),Kamis(d),Jumat(e)"<<endl;
+ cin>>code;
+ 
+ switch(code){
+ 	case 'a':
+ 		cout<<"Jadwal Hari Senin"<<endl;
+ 		cout<<"1. 13:45 - 15:02 Bahasa Inggris Teknik"<<endl;
+ 		cout<<"2. 15:15 - 17:55 Matematika Teknik"<<endl;
+ 		cout<<"3. 19:15 - 20:55 QMS"<<endl;
+ 		break;
+ 	case 'b':
+ 		cout<<"Jadwal Hari Selasa"<<endl;
+ 		cout<<"1. 14:35 - 16:15 Kewarga Negaraan"<<endl;
+ 		cout<<"2. 16:15 - 17:55 Logika Dan Algoritma"<<endl;
+ 		cout<<"3. 19:15 - 20:55 Matematika Diskrit"<<endl;
+ 		break;
+ 	case 'c':
+ 		cout<<"Jadwal Hari Rabu"<<endl;
+ 		cout<<"1. 17:05 - 17:55 K3"<<endl;
+ 		break;
+ 	case 'd':
+ 		cout<<"Jadwal Hari Kamis"<<endl;
+ 		cout<<"1. 13:45 - 15:25 Konsep Pemrograman"<<endl;
+ 		break;
+ 	case 'e':
+ 		cout<<"Jadwal Hari Jumat"<<endl;
+ 		cout<<"1. 13:45 - 15:25 Agama"<<endl;
+ 		cout<<"2. 15:15 - 17:55 Praktikum Konsep Pemrograman"<<endl;
+ 		cout<<"3. 18:25 - 20:05 Konsep Teknologi Informasi"<<endl;
+ 		break;
+ 	default :
+ 		cout<<"Maaf Tidak Ada Hari Yang Anda Pilih"<<endl;
+ 		cout<<"Terimakasih"<<endl;
+ }
+}
