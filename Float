@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+float bil1,bil2;
+float bil3;
+int main()
+{
+  cout<<"Tampilkan Bilangan 1 : ";cin>>bil1;
+  cout<<"Tampilkan Bilangan 2 : ";cin>>bil2;
+  
+  bil3=bil1+bil2;
+  cout<<bil3<<endl;
+  
+}
