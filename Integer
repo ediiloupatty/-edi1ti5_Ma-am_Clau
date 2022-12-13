@@ -1,0 +1,14 @@
+#include <iostream>
+ 
+using namespace std;
+ int a,b,c;
+int main(){
+    cout<<"Nama : Edi"<<endl;
+    cout<<"NIM.  : 22024169"<<endl;
+    cout<<"Kelas. : 1Ti5"<<endl;
+
+    a=2;
+    b=3;
+    c = a+b;
+    cout<<c;
+}
