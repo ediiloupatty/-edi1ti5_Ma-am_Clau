@@ -1,0 +1,27 @@
+ #include <iostream>
+ using namespace std;
+ 
+ int main(int argc, char** argv){
+ cout<<"Nama Anggota"<<endl;
+ cout<<"1. Nama  : Edi"<<endl; 
+ cout<<"2. NIM    : 2024169 "<<endl;
+ cout<<"3.Kelas    : 1Ti5"<<endl;
+ 
+ 
+ int nilai;
+ cout<<"Masukan nilai anda  :  "<<endl;
+ cin>>nilai;
+ if (nilai<30)
+ cout<<"E";
+ else if(nilai>=30 && nilai<=59)
+ cout<<"D";
+ else if (nilai>=60 && nilai <=70)
+ cout<<"C";
+ else if (nilai>=71 && nilai <=80)
+ cout<<"B";
+ else if (nilai>=81 && nilai <=100)
+ cout<<"A";
+ else if (nilai>100)
+ 
+ cout<<"Nilai tidak dijangkau";
+ }
