@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int a,b,c;
+int main()
+{
+  cout<<"Tampilkan Bilangan 1";cin>>a;
+  cout<<"Tampilkan Bilangan 2";cin>>b;
+  
+  c=a+b;
+  cout<<c<<endl;
+  
+}
