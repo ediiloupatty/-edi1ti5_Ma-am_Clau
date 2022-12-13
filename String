@@ -8,5 +8,5 @@ int main(){
     cout<<"Kelas. : 1Ti5"<<endl;
 
     string display = "Program String";
-    cout<<display;
+    cout<<display<<endl;
 }
