@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    char tampil[5]="Hallo";
+    cout<<tampil;
+}
