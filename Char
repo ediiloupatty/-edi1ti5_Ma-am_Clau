@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
+cout<<"Nama  : Edi"<<endl;
+cout<<"NIM   : 22024169"<<endl;
+cout<<"Kelas : 1Ti5"<<endl;
     char tampil[5]="Hallo";
     cout<<tampil;
 }
